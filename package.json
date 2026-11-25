@@ -1,1 +1,7 @@
-{"license":"MIT","name":"joke3-dog-homework-entry","private":true,"type":"module","version":"1.0.0"}
+{
+  "license": "MIT",
+  "name": "joke3-dog-homework-entry",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0"
+}

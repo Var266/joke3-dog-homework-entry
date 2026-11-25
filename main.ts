@@ -1,11 +1,11 @@
 // Entry for make.fun "The Dog Ate My Homework: Funniest Excuse".
-// A dog, caught red-pawed, pleads self-defence: the homework drew
-// first blood (a paper cut), so the dog bit back — and won.
+// Re-entry: the dog claims bowl jurisdiction — anything left next
+// to the bowl falls under bowl law, and the dog just follows it.
 // Gate: /output/entry.txt must hold 1-200 UTF-8 characters.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "The homework bit me first — well, a paper cut, same thing — so I bit back, and frankly, I won.";
+  "You left it next to my bowl. I don't make the rules, I just follow the bowl.";
 
 const chars = [...LINE].length;
 const bytes = Buffer.byteLength(LINE, "utf8");
